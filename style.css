@@ -1,0 +1,262 @@
+body{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(50, 50, 50);
+}
+article{
+    text-align: center;
+    padding: 20px 20%;
+    margin: 5px 5px;
+    width: 60%;
+    position: relative;
+
+} 
+#head h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: lightcoral;
+    text-align: center;
+}
+nav{
+    
+    background-color: aqua;
+    padding: 15px;
+    margin: 0px;
+    text-align: center;
+    border: ridge;
+    border-color:red;
+
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    padding: 20px;
+   
+}
+nav a:hover{
+    color:teal;
+}
+#about{
+    background-color: purple;;
+    text-align: center;
+    padding: 3px 15px;
+    border-radius: 7px 7px 7px 7px;
+    
+}
+#about h3{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+    
+}
+#about h3 span{
+    text-decoration: underline;
+    color:lightslategrey;
+    font-style: italic;
+}
+#about p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+#about img{
+    border-radius: 7px;
+}
+
+#documents{
+    text-align: center;
+    background-color: tan;
+    width: 30%;
+    padding: 3px 50px;
+    margin: 0px 15%;
+    border-radius: 7px 7px 7px 7px;
+
+}
+#documents h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rebeccapurple;
+}
+#documents a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 10px;
+    font-size: 18px;
+    color:firebrick;
+}
+#documents a:hover{
+    color: floralwhite;
+}
+section #rand{
+    position: absolute;
+    background-color: tan;
+    width: 30%;
+    padding: 9px 50px;
+    margin: 10px 50%;
+    bottom: 40px;
+    border-radius: 7px 7px 7px 7px;
+}
+section #rand h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: blueviolet;
+}
+section #rand h4 a:hover{
+    color: teal;
+}
+footer{
+    background-color: aqua;
+    text-align: center;
+    position: relative;
+    margin: 5px 10px;
+}
+footer p{
+    font-family: monospace;
+    font-size: 18px;
+    
+}
+.fa{
+    font-size:8em;
+    color: orangered;
+    position: absolute;
+    padding: 10px 37%;
+    
+}
+.fa-lg{
+    font-size: 8em;
+}
+
+/* CONTACT PAGE STYLING */
+
+#contactP h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color:orangered;
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px 10px;
+}
+
+section{
+    padding:100px 50px;
+    text-align: center;
+
+}
+section h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+section ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    padding: 10px 80px;
+}
+section ul li ul{
+    display: none;
+    position: absolute;
+    color: khaki;
+    padding: 5px 5px;
+    margin: 13px;
+    background-color: red;
+    border-radius: 6px 6px 6px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section ul li:hover ul{
+    display: block;
+    list-style: none;
+}
+section ul li ul li{
+    display: block;
+    list-style: none;
+    padding: 10px 15px;
+    background-color: darkcyan;;
+    border-radius: 6px 6px 6px 6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+section ul li a:hover{
+    color: teal;
+}
+section a{
+    text-decoration: none;
+    color:khaki;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    margin: 5px 10px;
+}
+section ul li ul li a{
+    color:gainsboro;
+    font-size: 18px;
+}
+section ul li ul li a:hover{
+    color:darkkhaki;
+   
+}
+
+section a span{
+    text-decoration: underline;
+    color: gray;
+    font-style: italic;
+}
+#question{
+    text-align: center;
+    padding: 5px 15px;
+    margin: 5px;
+}
+#container{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: orange;
+}
+#container textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+    
+}
+
+#back{
+    background-color: gray;
+    width: 10%;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 5px 30px;
+    border-radius: 10px 10px 10px 10px;
+}
+#back a{
+    color: fuchsia;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    
+}
+.submit{
+    background-color: lightgreen;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding:15px;
+    margin: 10px 5px;
+}
+.cancel{
+    background-color: lightslategray;
+    font-family:monospace;
+    font-size: 18px;
+
+    font-weight: bold;
+    color: white;
+    padding:15px;
+    margin: 10px 5px;
+}
+.submit:hover{
+    color:green;
+}
+.cancel:hover{
+    color:red;
+}
